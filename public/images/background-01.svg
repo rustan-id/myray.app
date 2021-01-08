@@ -1,0 +1,18 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="512px" height="279px" viewBox="0 0 512 279" preserveAspectRatio="none"  xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1131.7684" y1="-168.0076" x2="1647.3802" y2="-168.0076" gradientTransform="matrix(0.9968 0 0 1.0074 -1129.1399 308.0475)">
+	<stop  offset="1.189721e-03" style="stop-color:#FF3400"/>
+	<stop  offset="5.678343e-02" style="stop-color:#FF4A00"/>
+	<stop  offset="8.036564e-02" style="stop-color:#FF5500"/>
+	<stop  offset="0.3843" style="stop-color:#FF5703"/>
+	<stop  offset="0.5688" style="stop-color:#FF5C0B"/>
+	<stop  offset="0.7214" style="stop-color:#FF6619"/>
+	<stop  offset="0.8566" style="stop-color:#FF732E"/>
+	<stop  offset="0.9792" style="stop-color:#FF8548"/>
+	<stop  offset="1" style="stop-color:#FF884D"/>
+</linearGradient>
+<path class="st0" d="M-1,7.6L513,173v97L-1,196.7V7.6z"/>
+</svg>

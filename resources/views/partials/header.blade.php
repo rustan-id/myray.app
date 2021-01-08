@@ -1,0 +1,31 @@
+<header>
+    <nav class="
+        mx-auto px-6 sm:px-12 md:px-16 pt-8 pb-16
+        max-w-4xl
+        flex items-center justify-between
+
+    ">
+        <div class="sm:flex items-center">
+            <div>
+                <a class="block w-20" href="/">
+                    @include('partials.logoRay')
+                </a>
+                <span class="absolute top-full mt-1 left-0 text-indigo-800 text-opacity-50 font-normal text-px-xs">
+                    By <a class="hover:underline" href="https://spatie.be">Spatie</a>
+                </span>
+            </div>
+            <p class="hidden sm:block ml-4 text-sm mt-2 opacity-75 font-semibold leading-tight">
+                <a href="/">Dump Debugging Evolved</a>
+            </p>
+        </div>
+
+        <ul class="
+        grid grid-flow-col gap-8 
+        font-semibold">
+            <li><a class="markup-link" href="https://spatie.be/docs/ray">Docs</a></li>
+            <li><a class="markup-link" href="https://spatie.be/products/ray">Buy</a></li>
+            <li><a class="hover:text-indigo-500 
+                transition-colors duration-300" title="GitHub" href="https://github.com/spatie/ray/"><i class="fab fab fa-github"></i></a></li>
+        </ul>
+    </nav>
+</header>

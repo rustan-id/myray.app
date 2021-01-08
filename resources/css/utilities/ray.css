@@ -1,0 +1,81 @@
+/* Symphony stuff */
+.pre-sql,
+pre.sf-dump, pre.sf-dump .sf-dump-default {
+    @apply bg-gray-300 !important;
+    @apply bg-opacity-25 !important;
+    @apply text-gray-500 !important;
+    @apply rounded-sm;
+    @apply px-3.5 !important;
+    @apply py-1.5 !important;
+}
+
+
+pre.sf-dump .sf-dump-note {
+    @apply text-indigo-600 !important;
+}
+
+pre.sf-dump .sf-dump-index {
+    @apply text-indigo-600 !important;
+}
+
+pre.sf-dump .sf-dump-key,
+pre.sf-dump .sf-dump-str {
+    @apply text-green-500 !important;
+}
+
+pre.sf-dump .sf-dump-num {
+    @apply text-blue-600 !important;
+}
+
+/* LogItem text sizes */
+
+.ray-item-sm {
+    margin-top: .1rem; /* optical tweak */
+    @apply text-xs !important;
+}
+
+.ray-item-sm * {
+    @apply text-xs !important;
+}
+
+.ray-item,
+.ray-item * {
+    @apply text-sm !important;
+}
+
+.ray-item-lg{
+    margin-top: -.25rem; /* optical tweak */
+    @apply text-lg !important;
+}
+
+.ray-item-lg *{
+    @apply text-lg !important;
+}
+
+.ray-line-01 {
+    opacity: 0;
+    animation: ray-appear .1s 1.5s ease-out forwards;
+}
+
+.ray-line-02 {
+    opacity: 0;
+    animation: ray-appear .1s 2.5s ease-out forwards;
+}
+
+.ray-line-03 {
+    opacity: 0;
+    animation: ray-appear .1s 3.5s ease-out forwards;
+}
+
+@keyframes ray-appear {
+    0%{
+        opacity: 0;
+        transform-origin: 0 0;
+        transform: scaleY(.85);
+    }
+    100%{
+        opacity: 1;
+        transform-origin: 0 0;
+        transform: scaleY(1);
+    }
+}
